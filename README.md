@@ -6,4 +6,6 @@ Changes the orientation of a 68000 DIP CPU.
 
 Primarily created to allow the TerribleFire TF530 accelerator board to better fit within an Amiga 500 case.
 
+**NOTE THAT THIS IS UNTESTED - USE AT YOUR OWN RISK!!!**
+
 Based on [work by AwesomeInferno](https://github.com/AwesomeInferno/68000Relocator).
