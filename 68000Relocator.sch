@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:68000Relocator-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Open68000Relocator"
-Date "2018-11-02"
-Rev "V1sukko-git"
+Date "2019-12-17"
+Rev "V2sukko-git"
 Comp "SukkoPera"
 Comment1 "Shifts a 68000 processor socket up and 90 degrees counter-clockwise"
 Comment2 "https://github.com/SukkoPera/Open68000Relocator"
@@ -860,6 +859,98 @@ Wire Wire Line
 	1900 4300 2150 4300
 Wire Wire Line
 	2150 1500 1900 1500
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E108A3B
+P 10090 3495
+F 0 "TP1" V 10090 3683 50  0000 L CNN
+F 1 "TestPoint" V 10045 3683 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10290 3495 50  0001 C CNN
+F 3 "~" H 10290 3495 50  0001 C CNN
+	1    10090 3495
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10090 3495 9755 3495
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E11A153
+P 10090 3595
+F 0 "TP2" V 10090 3783 50  0000 L CNN
+F 1 "TestPoint" V 10045 3783 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10290 3595 50  0001 C CNN
+F 3 "~" H 10290 3595 50  0001 C CNN
+	1    10090 3595
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10090 3595 9755 3595
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E1242E2
+P 10090 3695
+F 0 "TP3" V 10090 3883 50  0000 L CNN
+F 1 "TestPoint" V 10045 3883 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10290 3695 50  0001 C CNN
+F 3 "~" H 10290 3695 50  0001 C CNN
+	1    10090 3695
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10090 3695 9755 3695
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5E12D409
+P 10090 3795
+F 0 "TP4" V 10090 3983 50  0000 L CNN
+F 1 "TestPoint" V 10045 3983 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10290 3795 50  0001 C CNN
+F 3 "~" H 10290 3795 50  0001 C CNN
+	1    10090 3795
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10090 3795 9755 3795
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5E12D414
+P 10090 3895
+F 0 "TP5" V 10090 4083 50  0000 L CNN
+F 1 "TestPoint" V 10045 4083 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10290 3895 50  0001 C CNN
+F 3 "~" H 10290 3895 50  0001 C CNN
+	1    10090 3895
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10090 3895 9755 3895
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5E12D41F
+P 10090 3995
+F 0 "TP6" V 10090 4183 50  0000 L CNN
+F 1 "TestPoint" V 10045 4183 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10290 3995 50  0001 C CNN
+F 3 "~" H 10290 3995 50  0001 C CNN
+	1    10090 3995
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10090 3995 9755 3995
+Text Label 9755 3995 0    60   ~ 0
+A4
+Text Label 9755 3895 0    60   ~ 0
+A3
+Text Label 9755 3795 0    60   ~ 0
+A2
+Text Label 9755 3695 0    60   ~ 0
+A1
+Text Label 9755 3595 0    60   ~ 0
+FC0
+Text Label 9755 3495 0    60   ~ 0
+FC1
+Text Notes 9715 3290 0    50   ~ 0
+TEST POINTS FOR\nPINS COVERED\nBY CPU
 Wire Bus Line
 	5500 820  5500 5100
 Wire Bus Line
